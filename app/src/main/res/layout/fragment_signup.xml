@@ -76,7 +76,7 @@
                         android:contentDescription="@string/avatar"
                         app:srcCompat="@drawable/ic_person"/>
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/uploadAvatar"
                         android:layout_width="48sp"
                         android:layout_height="48sp"
@@ -84,8 +84,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_margin="2sp"
                         android:background="@drawable/pill_counter"
-                        android:drawableTop="@drawable/ic_add_a_photo"
-                        android:paddingTop="10dp"/>
+                        android:src="@drawable/ic_add_a_photo"
+                        android:paddingTop="2dp"/>
                 </RelativeLayout>
 
             </LinearLayout>

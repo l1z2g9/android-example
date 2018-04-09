@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Tindroid</string>
-    <string name="app_name_full">Tindroid Messenger</string>
+    <string name="app_name">Gulu Gulu</string>
+    <string name="app_name_full">Gulu Gulu Messenger</string>
     <string name="app_version">Version 0.14</string>
-    <string name="copyright">© 2017 Tinode</string>
-    <string name="tinode">Tinode</string>
+    <string name="copyright">© 2017 Gulu Gulu</string>
+    <string name="tinode">Gulu Gulu</string>
 
     <string name="login_hint">Login</string>
     <string name="password_hint">Password</string>
