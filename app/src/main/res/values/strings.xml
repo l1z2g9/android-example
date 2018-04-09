@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">GULU GULU</string>
     <string name="app_name_full">GULU GULU Messenger</string>
-    <string name="app_version">Version 0.14</string>
-    <string name="copyright">© 2017 GULU GULU</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="copyright">© 2018 GULU GULU</string>
     <string name="tinode">GULU GULU</string>
 
     <string name="login_hint">Login</string>
@@ -13,7 +13,7 @@
     <string name="send_file_button_hint">Send file</string>
 
     <string name="sign_in">Sign In</string>
-    <string name="tinode_url">https://github.com/tinode/</string>
+    <string name="tinode_url">https://play.google.com/store</string>
     <string name="app_description">GULU GULU Chat</string>
     <string name="action_signup">Sign Up</string>
     <string name="sign_up">Sign Up</string>
@@ -96,12 +96,12 @@
     <string name="contacts_permission_denied">Contacts not loaded: permission denied</string>
     <string name="account_already_exists">Account already exists</string>
     <string name="pick_account">Pick Account</string>
-    <string name="tinode_invite_subject">Check out Tindroid Messenger</string>
-    <string name="tinode_invite_body">Check out Tindroid Messenger. Download it from https://github.com/tinode/</string>
+    <string name="tinode_invite_subject">Check out GULU GULU Messenger</string>
+    <string name="tinode_invite_body">Check out GULU GULU Messenger. Download it from https://play.google.com/store</string>
 
-    <string name="profile_action">Tinode profile</string>
+    <string name="profile_action">GULU GULU profile</string>
     <string name="view_profile">View Profile</string>
-    <string name="tinode_message">Send Tinode message</string>
+    <string name="tinode_message">Send GULU GULU message</string>
     <string name="failed_to_invite">Don\'t know how to invite - no contact info</string>
     <string name="about_title">About</string>
     <string name="failed_to_send_message">Failed to send message</string>

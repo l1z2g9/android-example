@@ -148,7 +148,7 @@ public class FBaseMessagingService extends FirebaseMessagingService {
 
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         int icon = (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) ?
-                R.drawable.ic_logo_push : R.mipmap.ic_launcher;
+                R.drawable.profile_pic : R.mipmap.profile_pic;
 
         int background = ContextCompat.getColor(this, R.color.colorNotificationBackground);
 
