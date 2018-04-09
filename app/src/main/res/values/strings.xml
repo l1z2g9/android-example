@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Gulu Gulu</string>
-    <string name="app_name_full">Gulu Gulu Messenger</string>
+    <string name="app_name">GULU GULU</string>
+    <string name="app_name_full">GULU GULU Messenger</string>
     <string name="app_version">Version 0.14</string>
-    <string name="copyright">© 2017 Gulu Gulu</string>
-    <string name="tinode">Gulu Gulu</string>
+    <string name="copyright">© 2017 GULU GULU</string>
+    <string name="tinode">GULU GULU</string>
 
     <string name="login_hint">Login</string>
     <string name="password_hint">Password</string>
@@ -14,14 +14,14 @@
 
     <string name="sign_in">Sign In</string>
     <string name="tinode_url">https://github.com/tinode/</string>
-    <string name="app_description">Tinode Demo Chat</string>
+    <string name="app_description">GULU GULU Chat</string>
     <string name="action_signup">Sign Up</string>
     <string name="sign_up">Sign Up</string>
     <string name="login_new">Login</string>
     <string name="password_new">Password</string>
     <string name="password_repeat">Repeat password</string>
     <string name="full_name">Full name, e.g. John Doe</string>
-    <string name="tinode_logo">Tinode Logo</string>
+    <string name="tinode_logo">GULU GULU Logo</string>
     <string name="upload_avatar">Upload avatar picture</string>
     <string name="continue_fb">Continue with Facebook</string>
     <string name="continue_goog">Continue with Google</string>
