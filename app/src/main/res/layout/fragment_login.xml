@@ -78,7 +78,9 @@
     <android.support.v7.widget.AppCompatImageButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:cropToPadding="false"
         android:src="@drawable/login_btn"
+        android:background="@null"
         android:padding="10dp"
         android:id="@+id/signIn"
         android:adjustViewBounds="true"
