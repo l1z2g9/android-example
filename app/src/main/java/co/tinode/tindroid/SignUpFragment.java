@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -116,7 +117,7 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
             return;
         }
 
-        final Button signUp = (Button) parent.findViewById(R.id.signUp);
+        final ImageButton signUp = (ImageButton) parent.findViewById(R.id.signUp);
         signUp.setEnabled(false);
 
         final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(parent);

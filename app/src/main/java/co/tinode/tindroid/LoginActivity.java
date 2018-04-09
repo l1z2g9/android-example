@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import co.tinode.tinodesdk.Tinode;
@@ -156,7 +157,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    void reportError(final Exception err, final Button button, final int errId) {
+    void reportError(final Exception err, final ImageButton button, final int errId) {
         String message = err.getMessage();
         Log.i(TAG, getText(errId) + " " + message, err);
 

@@ -49,6 +49,7 @@ import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.CheckedTextView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -259,7 +260,7 @@ public class UiUtils {
     /**
      * Login successful. Show contacts activity
      */
-    static void onLoginSuccess(Activity activity, final Button button) {
+    static void onLoginSuccess(Activity activity, final ImageButton button) {
         if (button != null) {
             activity.runOnUiThread(new Runnable() {
                 public void run() {

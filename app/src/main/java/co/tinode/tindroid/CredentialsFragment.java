@@ -21,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -92,7 +93,7 @@ public class CredentialsFragment extends Fragment implements View.OnClickListene
             return;
         }
 
-        final Button confirm = parent.findViewById(R.id.confirm);
+        final ImageButton confirm = parent.findViewById(R.id.confirm);
         confirm.setEnabled(false);
 
         try {

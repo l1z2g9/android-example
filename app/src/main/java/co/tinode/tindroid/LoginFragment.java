@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.preference.PreferenceManager;
+import android.support.v7.widget.AppCompatImageButton;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -94,7 +95,7 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
             return;
         }
 
-        final Button signIn = parent.findViewById(R.id.signIn);
+        final AppCompatImageButton signIn = parent.findViewById(R.id.signIn);
         signIn.setEnabled(false);
 
         final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(parent);
