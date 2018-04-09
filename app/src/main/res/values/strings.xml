@@ -5,8 +5,8 @@
     <string name="copyright">© 2017 Tinode</string>
     <string name="tinode">Tinode</string>
 
-    <string name="login_hint">Login: alice, bob, carol, dave, eve, frank</string>
-    <string name="password_hint">Password: alice123, bob123,…</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
     <string name="new_message_hint">Type a message</string>
     <string name="send_message_button_hint">Send message</string>
     <string name="send_image_button_hint">Send image</string>
