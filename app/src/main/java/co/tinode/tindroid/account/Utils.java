@@ -125,7 +125,8 @@ public class Utils {
                                     PhoneNumberUtil.PhoneNumberFormat.E164);
                             holder.putPhone(data);
                         } catch (NumberParseException e) {
-                            e.printStackTrace();
+                            //e.printStackTrace();
+                            //todo: ignore exception first
                         }
                     }
                     break;

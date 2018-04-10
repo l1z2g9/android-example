@@ -36,7 +36,7 @@
     <string name="settings_host_name_summary">Change server address</string>
     <string name="settings_use_tls_summary">Use secure connection</string>
     <string name="settings_wire_transport_summary">Select wire transport</string>
-    <string name="default_host_name">10.0.2.2:6060</string>
+    <string name="default_host_name">ec2-52-23-193-200.compute-1.amazonaws.com:6060</string>
 
     <!-- access mode definitions -->
     <string name="modeReadable">can join</string>

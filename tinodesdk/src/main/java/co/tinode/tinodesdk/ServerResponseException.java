@@ -13,7 +13,7 @@ public class ServerResponseException extends Exception {
 
     @Override
     public String getMessage() {
-        return super.getMessage() + " (" + code + ")";
+        return super.getMessage();
     }
 
     public int getCode() {

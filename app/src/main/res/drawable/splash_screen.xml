@@ -4,8 +4,8 @@
     <item android:drawable="@color/colorSplashScreenBackground" />
 
     <item android:gravity="center"
-          android:width="90dp"
-          android:height="128dp"
+          android:width="390dp"
+          android:height="628dp"
           android:drawable="@drawable/cover"/>
 
 </layer-list>
