@@ -222,8 +222,34 @@ public class MessagesFragment extends Fragment {
             }
         }, READ_DELAY, READ_DELAY);
 
-        mRefresher.setRefreshing(false);
+        //mRefresher.setRefreshing(false);
 
+
+        if(TopicInfoFragment.EJECT_USER == 1) {
+            Log.d(TAG, "Calling server to reload data as a user was removed in group");
+            try {
+                mTopic.getMeta(mTopic.getMetaGetBuilder().withGetEarlierData(MESSAGES_TO_LOAD).build())
+                        .thenApply(
+                                new PromisedReply.SuccessListener<ServerMessage>() {
+                                    @Override
+                                    public PromisedReply<ServerMessage> onSuccess(ServerMessage result) throws Exception {
+                                        mRefresher.setRefreshing(false);
+                                        TopicInfoFragment.EJECT_USER = 0;
+                                        return null;
+                                    }
+                                },
+                                new PromisedReply.FailureListener<ServerMessage>() {
+                                    @Override
+                                    public PromisedReply<ServerMessage> onFailure(Exception err) throws Exception {
+                                        mRefresher.setRefreshing(false);
+                                        return null;
+                                    }
+                                }
+                        );
+            } catch (Exception e) {
+                mRefresher.setRefreshing(false);
+            }
+        }
         runLoader();
     }
 

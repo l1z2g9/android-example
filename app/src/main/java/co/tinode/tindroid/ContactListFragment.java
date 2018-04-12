@@ -312,7 +312,7 @@ public class ContactListFragment extends ListFragment {
     public void onResume() {
         super.onResume();
         // Receive updates when the Contacts db is changed
-        getActivity().getContentResolver().registerContentObserver(ContactsQuery.CONTENT_URI, true, mContactsObserver);
+        //getActivity().getContentResolver().registerContentObserver(ContactsQuery.CONTENT_URI, true, mContactsObserver);
         // Refresh data
         getLoaderManager().initLoader(ContactsQuery.PHEMIM_QUERY_ID, null, mPhEmImLoaderCallback);
     }

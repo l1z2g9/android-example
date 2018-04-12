@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#433edf"
+        android:background="#6960ec"
         android:contentInsetStartWithNavigation="4dp"
         app:contentInsetStartWithNavigation="4dp"
         app:popupTheme="@style/AppTheme.PopupOverlay"/>
@@ -18,7 +18,7 @@
         android:id="@+id/tabsContacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#433edf">
+        android:background="#6960ec">
 
         <android.support.design.widget.TabItem
             android:id="@+id/tab_chat"

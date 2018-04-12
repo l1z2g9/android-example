@@ -52,6 +52,8 @@ public class TopicInfoFragment extends Fragment {
     private static final int ACTION_REMOVE = 4;
     private static final int ACTION_BAN = 5;
 
+    public static int EJECT_USER = 0;
+
     Topic<VCard, String> mTopic;
     private MembersAdapter mAdapter;
 
@@ -289,6 +291,7 @@ public class TopicInfoFragment extends Fragment {
                     switch (what) {
                         case ACTION_REMOVE:
                             mTopic.eject(uid, false).thenApply(null, mFailureListener);
+                            EJECT_USER = 1;
                             break;
                         case ACTION_BAN:
                             mTopic.eject(uid, true).thenApply(null, mFailureListener);
