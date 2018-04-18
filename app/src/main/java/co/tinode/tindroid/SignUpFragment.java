@@ -117,7 +117,7 @@ public class SignUpFragment extends Fragment implements View.OnClickListener {
             return;
         }
 
-        final ImageButton signUp = (ImageButton) parent.findViewById(R.id.signUp);
+        final Button signUp = (Button) parent.findViewById(R.id.signUp);
         signUp.setEnabled(false);
 
         final SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(parent);
